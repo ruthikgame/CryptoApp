@@ -62,7 +62,7 @@ public class VigenerePane implements CipherPane {
 
     @Override
     public String getName() {
-        return "Шифр Виженера";
+        return "Квадрат Виженера";
     }
 
     private void showError(String msg) {

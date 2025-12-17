@@ -14,9 +14,9 @@ public class MainWindow extends BorderPane {
         selector.getItems().addAll(
                 new CaesarPane(),
                 new VigenerePane(),
-                new RSAPane(),
                 new RC5Pane(),
-                new RC5BlockPane()
+                new RC5BlockPane(),
+                new RSAPane()
 
         );
 
